@@ -34,10 +34,6 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
-    [install.path]
-    type = "path"
-    default = "/filerise"
-
     [install.init_main_permission]
     type = "group"
     default = "visitors"
@@ -56,7 +52,7 @@ ram.runtime = "50M"
 
     [resources.install_dir]
     group = "www-data:r-x"
-    
+
     [resources.data_dir]
     subdirs = ["uploads", "users", "metadata"]
     group = "www-data:rx"
