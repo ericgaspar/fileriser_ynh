@@ -62,4 +62,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.4-json, php8.4-curl, php8.4-zip"
+    packages = "php8.4-json, php8.4-curl, php8.4-zip, php8.4-mbstring"
