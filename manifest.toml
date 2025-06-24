@@ -55,8 +55,11 @@ ram.runtime = "50M"
     [resources.system_user]
 
     [resources.install_dir]
-
+    group = "www-data:r-x"
+    
     [resources.data_dir]
+    subdirs = ["uploads", "users", "metadata"]
+    group = "www-data:rx"
 
     [resources.permissions]
     main.url = "/"

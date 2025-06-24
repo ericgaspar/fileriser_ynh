@@ -1,6 +1,3 @@
-BASE_URL=http://__DOMAIN____PATH__
-
-
 <?php
 // config.php
 
@@ -21,6 +18,7 @@ if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') {
 }
 
 // Define constants
+define('PERSISTENT_TOKENS_KEY', '__KEY__');
 define('PROJECT_ROOT', '__INSTALL_DIR__');
 define('UPLOAD_DIR',    '__DATA_DIR__/');
 define('USERS_DIR',     '/var/www/users/');
