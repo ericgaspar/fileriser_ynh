@@ -18,7 +18,6 @@ if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') {
 }
 
 // Define constants
-define('PERSISTENT_TOKENS_KEY', '__KEY__');
 define('PROJECT_ROOT', '__INSTALL_DIR__');
 define('UPLOAD_DIR',    '__DATA_DIR__/uploads');
 define('USERS_DIR',     '__DATA_DIR__/users/');
