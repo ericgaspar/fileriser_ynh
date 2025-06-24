@@ -21,7 +21,7 @@ if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') {
 define('PERSISTENT_TOKENS_KEY', '__KEY__');
 define('PROJECT_ROOT', '__INSTALL_DIR__');
 define('UPLOAD_DIR',    '__DATA_DIR__/');
-define('USERS_DIR',     '/var/www/users/');
+define('USERS_DIR',     '__DATA_DIR__/users/');
 define('USERS_FILE',    'users.txt');
 define('META_DIR',      '/var/www/metadata/');
 define('META_FILE',     'file_metadata.json');
